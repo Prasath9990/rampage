@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int amt=50;
+    int per=10;
+    int time=8;
+    int interest=amt+(amt*per/100);
+    printf("%d",interest*time);
+    
+    return 0;
+}
